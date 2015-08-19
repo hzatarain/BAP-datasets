@@ -1,2 +1,5 @@
 # BAP-datasets
-Input random graphs for the Bodyguard Allocation Problem.
+The BAP ([Bodyguard Allocation Problem](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6205750)) is an optimization problem that illustrates the behavior of processes with contradictory individual goals in some distributed systems. This reposiory contains the input random graphs used for experimental simulation of this problem. We use the statistical software [R](https://www.r-project.org/) with the library [igraph](http://igraph.org/) to generate randomized graphs using three different
+models: This set includes random graphs based on the following models: [Barabási-Albert](http://www.sciencemag.org/content/286/5439/509) , [Erdős-Rényi](http://www.renyi.hu/~p_erdos/1960-10.pdf), and [Randomly Grown Graphs](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=892065). 
+
+Each random graph consists on 65 vertices with approximately five different amounts of edges: 128, 256, 512, 1024 and 2048 (a complete graph with 65 vertices has 2080 edges). This data set includes thirty graph instances for each model and each density (a total of 450 instances).
